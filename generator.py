@@ -114,7 +114,7 @@ def draw_tier_2():
     ]
     
     draw_text(880, texts[0][0], texts[0][2], texts[0][1], texts[0][3])
-    draw_text(1080, texts[1][0], texts[1][2], texts[1][1], texts[0][3])
+    draw_text(1080, texts[1][0], texts[1][2], texts[1][1], texts[1][3])
     
 draw_tier_2()
 
