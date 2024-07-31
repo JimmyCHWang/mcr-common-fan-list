@@ -35,7 +35,7 @@ two_third_width = 2 * width_px // 3
 def draw_title_area():
     # Define the text and its position
     main_title = "MCR Common Fan List"
-    subtitle = "For Riichi Players v0.0.2        @JCarlson"
+    subtitle = "For Riichi Players v0.0.3        @JCarlson"
     small_title = "*Ruleset based on MIL Certified MCR ('98 modified)"
     separator_position = 180  # Position for the horizontal separator
 
@@ -124,7 +124,7 @@ def draw_tier_3():
     
     def draw_title_hand(y, title, subtitle, hand, point):
         draw.text((two_third_width + 16, y), title, fill="black", font=subtitle_font)
-        draw.text((two_third_width + 16, y+110), subtitle, fill="black", font=italic_small_font)
+        draw.text((two_third_width + 16, y+110), subtitle, fill="black", font=small_title_font)
         draw.text((width_px - 64, y - 8), str(point), align='right', fill="black", font=title_font)
         draw_hand(image, two_third_width + 16, y+50, hand)
 
